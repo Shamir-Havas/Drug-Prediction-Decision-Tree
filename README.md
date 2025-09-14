@@ -59,19 +59,19 @@ Kernel → Restart & Run All
 
 🔹 Dataset Preview
 
-<p align="center"> <img src="images/dataset_preview.png" width="500" alt="Dataset Preview"/> </p>
+<p align="center"> <img src="C:\Users\ShAmiR\OneDrive\Pictures\Screenshots\dataset_preview.png" width="500" alt="Dataset Preview"/> </p>
 
 🔹 Category Counts
 
-<p align="center"> <img src="images/category_counts.png" width="600" alt="Category Counts"/> </p>
+<p align="center"> <img src="C:\Users\ShAmiR\OneDrive\Pictures\Screenshots\category_counts.png" width="600" alt="Category Counts"/> </p>
 
 🔹 Model Accuracy
 
-<p align="center"> <img src="images/model_accuracy.png" width="500" alt="Model Accuracy"/> </p>
+<p align="center"> <img src="C:\Users\ShAmiR\OneDrive\Pictures\Screenshots\model_accuracy.png" width="500" alt="Model Accuracy"/> </p>
 
 🔹 Confusion Matrix
 
-<p align="center"> <img src="images/confusion_matrix.png" width="600" alt="Confusion Matrix"/> </p>
+<p align="center"> <img src="C:\Users\ShAmiR\OneDrive\Pictures\Screenshots\imagesconfusion_matrix.png" width="600" alt="Confusion Matrix"/> </p>
 🔍 Model Explainability
 
 Feature Importance: ranked by decision tree
