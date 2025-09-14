@@ -38,17 +38,17 @@ This notebook demonstrates a complete ML workflow focused on predicting drug cat
 ## Results
 My Data
 <img width="486" height="468" alt="image" src="https://github.com/user-attachments/assets/a71062a8-6aa0-4dfe-b2dd-e446599cf6c3" />
-
+/
 
 Category_Counts
 
 <img width="702" height="605" alt="image" src="https://github.com/user-attachments/assets/216454dd-de08-4372-b85d-de8592c3b446" />
-
+/
 Model Accuracy Screenshot
 
 <img width="722" height="38" alt="image" src="https://github.com/user-attachments/assets/bddd5fbd-c2c9-4df8-9c08-234824936c1e" />
 
-Confusion Matrix Screenshot
+/Confusion Matrix Screenshot
 
 <img width="642" height="485" alt="image" src="https://github.com/user-attachments/assets/6f319c8b-da58-4af8-8765-2a4d53ed044c" />
 
