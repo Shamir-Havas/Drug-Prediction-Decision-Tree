@@ -3,11 +3,11 @@
 A clear and interpretable baseline for predicting drug categories using patient features and a Decision Tree classifier. Designed to be interview-friendly, with emphasis on clarity, step-by-step decisions, and interpretability.
 
 📂 Project Structure
-<p align="left">├── Drug_Prediction_DecisionTree_polished.ipynb <p align="center">
-<p align="left">├── README.md <p align="left"> 
-<p align="left">├── data/ <p align="left">                                       
-<p align="left">├── images/ <p align="left">                                  
-<p align="left">└── requirements.txt <p align="left">                           
+├── Drug_Prediction_DecisionTree_polished.ipynb   # Main notebook with full workflow
+├── README.md                                     # Project documentation
+├── data/                                         # Dataset storage
+├── images/                                       # Saved plots and figures
+└── requirements.txt                              # Dependencies
 
 ⚙️ Skills & Tech
 
@@ -59,24 +59,19 @@ Kernel → Restart & Run All
 
 🔹 Dataset Preview
 
-<p align="center"> <img width="486" height="468" src="<img width="465" height="466" alt="image" src="C:\Users\ShAmiR\OneDrive\Pictures\Screenshots\Screenshot 2025-09-14 102951.png" />
-" alt="Dataset Preview"/> </p>
+<p align="center"> <img src="images/dataset_preview.png" width="500" alt="Dataset Preview"/> </p>
 
 🔹 Category Counts
 
-<p align="center"> <img width="702" height="605" src="<img width="705" height="603" alt="image" src=""C:\Users\ShAmiR\OneDrive\Pictures\Screenshots\Screenshot 2025-09-14 102906.png"" />
-" alt="Category Counts"/> </p>
+<p align="center"> <img src="images/category_counts.png" width="600" alt="Category Counts"/> </p>
 
 🔹 Model Accuracy
 
-<p align="center"> <img width="722" height="38" src="<img width="647" height="41" alt="image" src=""C:\Users\ShAmiR\OneDrive\Pictures\Screenshots\Screenshot 2025-09-14 102815.png" />
-" alt="Model Accuracy"/> </p>
+<p align="center"> <img src="images/model_accuracy.png" width="500" alt="Model Accuracy"/> </p>
 
 🔹 Confusion Matrix
 
-<p align="center"> <img width="642" height="485" src=""C:\Users\ShAmiR\OneDrive\Pictures\Screenshots\Screenshot 2025-09-14 102717.png"" />
-" alt="Confusion Matrix"/> </p>
-
+<p align="center"> <img src="images/confusion_matrix.png" width="600" alt="Confusion Matrix"/> </p>
 🔍 Model Explainability
 
 Feature Importance: ranked by decision tree
