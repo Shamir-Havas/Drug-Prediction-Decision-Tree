@@ -59,19 +59,24 @@ Kernel → Restart & Run All
 
 🔹 Dataset Preview
 
-<p align="center"> <img width="486" height="468" src="images/dataset_preview.png" alt="Dataset Preview"/> </p>
+<p align="center"> <img width="486" height="468" src="<img width="465" height="466" alt="image" src="https://github.com/user-attachments/assets/c04c9931-d87b-4361-8d13-142f3e249cb2" />
+" alt="Dataset Preview"/> </p>
 
 🔹 Category Counts
 
-<p align="center"> <img width="702" height="605" src="images/category_counts.png" alt="Category Counts"/> </p>
+<p align="center"> <img width="702" height="605" src="<img width="705" height="603" alt="image" src="https://github.com/user-attachments/assets/db95e5cb-656d-4c0f-b29a-a077062e7397" />
+" alt="Category Counts"/> </p>
 
 🔹 Model Accuracy
 
-<p align="center"> <img width="722" height="38" src="images/model_accuracy.png" alt="Model Accuracy"/> </p>
+<p align="center"> <img width="722" height="38" src="<img width="647" height="41" alt="image" src="https://github.com/user-attachments/assets/242205cf-9563-4991-af2f-e123af7ee259" />
+" alt="Model Accuracy"/> </p>
 
 🔹 Confusion Matrix
 
-<p align="center"> <img width="642" height="485" src="images/confusion_matrix.png" alt="Confusion Matrix"/> </p>
+<p align="center"> <img width="642" height="485" src="<img width="645" height="497" alt="image" src="https://github.com/user-attachments/assets/94de5030-220e-4e08-ac03-4f8288c67436" />
+" alt="Confusion Matrix"/> </p>
+
 🔍 Model Explainability
 
 Feature Importance: ranked by decision tree
@@ -91,8 +96,6 @@ Try ensemble methods (Random Forest, XGBoost)
 Domain-specific validation & feature engineering
 
 📦 Requirements
-
-Dependencies are listed in requirements.txt. Example:
 
 pandas==2.0.3
 numpy==1.25.2
