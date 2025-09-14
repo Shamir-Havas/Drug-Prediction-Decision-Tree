@@ -3,11 +3,11 @@
 A clear and interpretable baseline for predicting drug categories using patient features and a Decision Tree classifier. Designed to be interview-friendly, with emphasis on clarity, step-by-step decisions, and interpretability.
 
 📂 Project Structure
-├── Drug_Prediction_DecisionTree_polished.ipynb   # Main notebook with full workflow
-├── README.md                                     # Project documentation
-├── data/                                         # Dataset storage
-├── images/                                       # Saved plots and figures
-└── requirements.txt                              # Dependencies
+<p align="center">├── Drug_Prediction_DecisionTree_polished.ipynb <p align="center">
+<p align="center">├── README.md <p align="center"> 
+<p align="center">├── data/ <p align="center">                                       
+<p align="center">├── images/ <p align="center">                                  
+<p align="center">└── requirements.txt <p align="center">                           
 
 ⚙️ Skills & Tech
 
