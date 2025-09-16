@@ -3,9 +3,11 @@
 A clear and interpretable baseline for predicting drug categories using patient features and a Decision Tree classifier. Designed to be interview-friendly, with emphasis on clarity, step-by-step decisions, and interpretability.
 
 📂 Project Structure
-├── Drug_Prediction_DecisionTree_polished.ipynb # Main notebook with full workflow
-├── README.md # Project documentation
-
+├── Drug_Prediction_DecisionTree_polished.ipynb  # Main notebook with full workflow
+├── README.md                                   # Project documentation
+├── data/                                       # Dataset storage
+├── images/                                     # Saved plots and figures
+└── requirements.txt                            # Dependencies
 
 ⚙️ Skills & Tech
 
@@ -20,6 +22,7 @@ scikit-learn — DecisionTreeClassifier, model evaluation
 EDA, Preprocessing, Model interpretation
 
 📝 Project Overview
+
 This notebook demonstrates a complete Machine Learning workflow for predicting drug categories:
 
 Exploratory Data Analysis (EDA) – Inspect dataset distribution and patterns
@@ -28,7 +31,7 @@ Preprocessing – Encoding categorical features, handling data types
 
 Model Training – Decision Tree Classifier
 
-Evaluation – Accuracy, confusion matrix, interpretability
+Evaluation – Accuracy, interpretability, decision paths
 
 📊 Dataset
 
@@ -46,17 +49,27 @@ Na_to_K ratio: Sodium-to-Potassium ratio in the blood
 
 Target: Drug type (DrugA, DrugB, DrugC, DrugX, DrugY)
 
-Size: 200 samples (balanced categories)
+Size: 200 samples
 
 Source: UCI / educational dataset
 
 ▶️ How to Run
 
-Clone or download this repository.
+Clone or download this repository:
 
-Place the dataset in the data/ folder (if not already included).
+git clone https://github.com/Shamir-Havas/Drug-Prediction-Decision-Tree.git
+cd Drug-Prediction-Decision-Tree
 
-Open Drug_Prediction_DecisionTree_polished.ipynb in Jupyter Notebook.
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+
+Open Jupyter Notebook and run the workflow:
+
+jupyter notebook Drug_Prediction_DecisionTree_polished.ipynb
+
 
 Run all cells:
 
@@ -66,28 +79,27 @@ Kernel → Restart & Run All
 
 🔹 Category Counts
 Visualize the distribution of drug categories to assess class balance:
-![Category Distribution](images/Category Counts.png)
-
-🔹 Model Accuracy
-The model achieves an accuracy of ~97% on the test set:
-
-
-🔹 Confusion Matrix
-To evaluate model performance, visualize the confusion matrix:
-Replace with confusion matrix screenshot if added.
 
 
 🔹 Decision Tree Visualization
 Visualize the structure of the Decision Tree to understand decision paths:
-![Decision Tree](images/Decision Tree Visualization.png)
+
+
+🔹 Model Accuracy
+The model achieves an accuracy of ~97% on the test set.
+
+
+🔹 Feature Importance
+Rank the features based on their importance in predicting drug type.
+
 
 🔍 Model Explainability
 
-Feature Importance: Features ranked by their contribution to model decisions.
+Feature Importance: Features ranked by their contribution to model decisions
 
-Decision Tree Visualization: Interpretable decision paths using plot_tree.
+Decision Tree Visualization: Interpretable decision paths using plot_tree
 
-Classification Report: Precision, recall, and F1-score.
+Classification Report: Precision, recall, F1-score
 
 🚀 Future Improvements
 
@@ -100,13 +112,12 @@ Try ensemble methods (Random Forest, XGBoost)
 Domain-specific validation & feature engineering
 
 📦 Requirements
+pandas==2.0.3  
+numpy==1.25.2  
+matplotlib==3.7.2  
+seaborn==0.12.2  
+scikit-learn==1.3.0  
 
-pandas==2.0.3
 
-numpy==1.25.2
 
-matplotlib==3.7.2
-
-seaborn==0.12.2
-
-scikit-learn==1.3.0
+feature_importance.png
