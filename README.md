@@ -1,22 +1,18 @@
-# 💊 Drug Prediction — Decision Tree  
+<b># 💊 Drug Prediction — Decision Tree  </b>
 
 A clear and interpretable baseline for predicting **drug categories** using patient features and a Decision Tree classifier. Designed to be **interview-friendly**, with emphasis on clarity, step-by-step decisions, and interpretability.  
 
 ---
 
-## 📂 Project Structure  
+<b>## 📂 Project Structure  </b>
 
 ├── Drug_Prediction_DecisionTree_polished.ipynb # Main notebook with full workflow
 ├── README.md # Project documentation
-├── images/ # Saved plots and figures
-└── requirements.txt # Dependencies
 
-yaml
-Copy code
 
 ---
 
-## ⚙️ Skills & Tech  
+<b>## ⚙️ Skills & Tech</b>  
 
 - **Python, Jupyter Notebook**  
 - **pandas, NumPy** — Data handling  
@@ -26,7 +22,7 @@ Copy code
 
 ---
 
-## 📝 Project Overview  
+<b>## 📝 Project Overview  </b>
 
 This notebook demonstrates a complete **Machine Learning workflow** for predicting drug categories:  
 
@@ -37,7 +33,7 @@ This notebook demonstrates a complete **Machine Learning workflow** for predicti
 
 ---
 
-## 📊 Dataset  
+<b>## 📊 Dataset</b>  
 
 - **Features:**  
   - Age: Age of the patient  
@@ -51,7 +47,7 @@ This notebook demonstrates a complete **Machine Learning workflow** for predicti
 
 ---
 
-## ▶️ How to Run  
+<b>## ▶️ How to Run</b>  
 
 1. Clone or download this repository:  
    ```bash
@@ -71,27 +67,27 @@ Run all cells:
 
 Kernel → Restart & Run All
 
-📊 Results
-🔹 Category Counts
-![Category Counts](https://raw.githubusercontent.com/Shamir-Havas/Drug-Prediction-Decision-Tree/main/category_counts.png)
+<b>📊 Results</b><br>
 
-🔹 Decision Tree Visualization
-![Decision Tree](https://raw.githubusercontent.com/Shamir-Havas/Drug-Prediction-Decision-Tree/main/decision_tree.png)
+🔹 Category Counts<br>
+![Category Counts](https://raw.githubusercontent.com/Shamir-Havas/Drug-Prediction-Decision-Tree/main/category_counts.png)<br>
 
-🔹 Model Accuracy
-![Model Accuracy](https://raw.githubusercontent.com/Shamir-Havas/Drug-Prediction-Decision-Tree/main/accuracy.png)
+🔹 Decision Tree Visualization<br>
+![Decision Tree](https://raw.githubusercontent.com/Shamir-Havas/Drug-Prediction-Decision-Tree/main/decision_tree.png)<br>
 
-🔹 Feature Importance
-![Feature Importance](https://raw.githubusercontent.com/Shamir-Havas/Drug-Prediction-Decision-Tree/main/feature_importance.png)
+🔹 Model Accuracy<br>
+![Model Accuracy](https://raw.githubusercontent.com/Shamir-Havas/Drug-Prediction-Decision-Tree/main/accuracy.png)<br>
 
-🔍 Model Explainability
-Feature Importance: Features ranked by their contribution to model decisions
+
+<b>🔍 Model Explainability</b>
+
 
 Decision Tree Visualization: Interpretable decision paths using plot_tree
 
 Classification Report: Precision, recall, F1-score
 
-🚀 Future Improvements
+<b>🚀 Future Improvements</b>
+
 Hyperparameter tuning with GridSearchCV / RandomizedSearchCV
 
 Cross-validation (e.g., Stratified K-Fold) for robustness
@@ -100,9 +96,8 @@ Try ensemble methods (Random Forest, XGBoost)
 
 Domain-specific validation & feature engineering
 
-📦 Requirements
-ini
-Copy code
+<b>📦 Requirements</b>
+
 pandas==2.0.3  
 numpy==1.25.2  
 matplotlib==3.7.2  
