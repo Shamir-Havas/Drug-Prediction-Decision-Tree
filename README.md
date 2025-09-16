@@ -3,39 +3,46 @@
 A clear and interpretable baseline for predicting drug categories using patient features and a Decision Tree classifier. Designed to be interview-friendly, with emphasis on clarity, step-by-step decisions, and interpretability.
 
 📂 Project Structure
-├── Drug_Prediction_DecisionTree_polished.ipynb   # Main notebook with full workflow
-├── README.md                                     # Project documentation
-├── data/                                         # Dataset storage
-├── images/                                       # Saved plots and figures
-└── requirements.txt                              # Dependencies
+├── Drug_Prediction_DecisionTree_polished.ipynb  # Main notebook with full workflow
+├── README.md                                   # Project documentation
 
 ⚙️ Skills & Tech
 
 Python, Jupyter Notebook
 
-pandas, NumPy — data handling
+pandas, NumPy — Data handling
 
-matplotlib, seaborn — visualization
+matplotlib, seaborn — Visualization
 
-scikit-learn — DecisionTreeClassifier, evaluation
+scikit-learn — DecisionTreeClassifier, model evaluation
 
-EDA, preprocessing, model interpretation
+EDA, Preprocessing, Model interpretation
 
 📝 Project Overview
 
-This notebook demonstrates a complete ML workflow for predicting drug categories:
+This notebook demonstrates a complete Machine Learning workflow for predicting drug categories:
 
-Exploratory Data Analysis (EDA) – inspect dataset distribution and patterns
+Exploratory Data Analysis (EDA) – Inspect dataset distribution and patterns
 
-Preprocessing – encoding categorical features, handling data types
+Preprocessing – Encoding categorical features, handling data types
 
 Model Training – Decision Tree Classifier
 
-Evaluation – accuracy, confusion matrix, interpretability
+Evaluation – Accuracy, confusion matrix, interpretability
 
 📊 Dataset
 
-Features: Age, Sex, Blood Pressure, Cholesterol, Na_to_K ratio
+Features:
+
+Age: Age of the patient
+
+Sex: Male/Female
+
+Blood Pressure: Low / Normal / High
+
+Cholesterol: Normal / High
+
+Na_to_K ratio: Sodium-to-Potassium ratio in the blood
 
 Target: Drug type (DrugA, DrugB, DrugC, DrugX, DrugY)
 
@@ -45,40 +52,66 @@ Source: UCI / educational dataset
 
 ▶️ How to Run
 
-Clone or download this repository
+Clone or download this repository.
 
-Place the dataset in the data/ folder (if not already included)
+Place the dataset in the data/ folder (if not already included).
 
-Open Drug_Prediction_DecisionTree_polished.ipynb in Jupyter Notebook
+Open Drug_Prediction_DecisionTree_polished.ipynb in Jupyter Notebook.
 
 Run all cells:
 
 Kernel → Restart & Run All
 
 📊 Results
-
 🔹 Dataset Preview
 
-<p align="center"> <img src=""C:\Users\ShAmiR\OneDrive\Pictures\Screenshots\dataset_preview.png"" width="500" alt="Dataset Preview"/> </p>
+To understand the dataset structure, inspect the first few rows:
+
+
+Replace this placeholder with a screenshot of your dataset preview.
 
 🔹 Category Counts
 
-<p align="center"> <img src=""C:\Users\ShAmiR\OneDrive\Pictures\Screenshots\category_counts.png"" width="600" alt="Category Counts"/> </p>
+Visualize the distribution of drug categories to assess class balance:
+
+
+Replace this placeholder with a screenshot of your category distribution (e.g., bar chart showing the count of each drug type).
 
 🔹 Model Accuracy
 
-<p align="center"> <img src="C:\Users\ShAmiR\OneDrive\Pictures\Screenshots\model_accuracy.png" width="500" alt="Model Accuracy"/> </p>
+The model achieves an accuracy of ~97% on the test set:
+
+
+Replace this placeholder with your accuracy plot or printed output.
 
 🔹 Confusion Matrix
 
-<p align="center"> <img src="C:\Users\ShAmiR\OneDrive\Pictures\Screenshots\imagesconfusion_matrix.png" width="600" alt="Confusion Matrix"/> </p>
+To evaluate model performance, visualize the confusion matrix:
+
+
+Replace this placeholder with a screenshot of your confusion matrix heatmap.
+
+🔹 Feature Importance
+
+Rank the features based on their importance in predicting the drug type:
+
+
+Replace this placeholder with a plot showing feature importance (using clf.feature_importances_).
+
+🔹 Decision Tree Visualization
+
+Visualize the structure of the Decision Tree to understand decision paths:
+
+
+Replace this placeholder with a screenshot of your Decision Tree plot (using plot_tree).
+
 🔍 Model Explainability
 
-Feature Importance: ranked by decision tree
+Feature Importance: Features ranked by their contribution to model decisions.
 
-Tree Visualization: interpretable decision paths using plot_tree
+Decision Tree Visualization: Interpretable decision paths using plot_tree.
 
-Classification Report: precision, recall, F1-score
+Classification Report: Precision, recall, and F1-score.
 
 🚀 Future Improvements
 
@@ -91,7 +124,6 @@ Try ensemble methods (Random Forest, XGBoost)
 Domain-specific validation & feature engineering
 
 📦 Requirements
-
 pandas==2.0.3
 numpy==1.25.2
 matplotlib==3.7.2
