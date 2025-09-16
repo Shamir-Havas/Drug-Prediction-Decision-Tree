@@ -70,12 +70,15 @@ Kernel → Restart & Run All
 <b>📊 Results</b><br>
 
 🔹 Category Counts<br>
+
 ![Category Counts](https://raw.githubusercontent.com/Shamir-Havas/Drug-Prediction-Decision-Tree/main/category_counts.png)<br>
 
 🔹 Decision Tree Visualization<br>
+
 ![Decision Tree](https://raw.githubusercontent.com/Shamir-Havas/Drug-Prediction-Decision-Tree/main/decision_tree.png)<br>
 
 🔹 Model Accuracy<br>
+
 ![Model Accuracy](https://raw.githubusercontent.com/Shamir-Havas/Drug-Prediction-Decision-Tree/main/accuracy.png)<br>
 
 
