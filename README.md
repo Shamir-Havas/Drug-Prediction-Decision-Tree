@@ -6,8 +6,8 @@ A clear and interpretable baseline for predicting **drug categories** using pati
 
 ## <b> 📂 Project Structure  </b>
 
-├── Drug_Prediction_DecisionTree_polished.ipynb # Main notebook with full workflow
-├── README.md # Project documentation
+├── Drug_Prediction_DecisionTree_polished.ipynb <br>
+├── README.md # Project documentation<br>
 
 
 ---
