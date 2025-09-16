@@ -73,16 +73,16 @@ Kernel → Restart & Run All
 
 📊 Results
 🔹 Category Counts
-Visualize the distribution of drug categories to assess class balance:
+![Category Counts](https://raw.githubusercontent.com/Shamir-Havas/Drug-Prediction-Decision-Tree/main/category_counts.png)
 
 🔹 Decision Tree Visualization
-Visualize the structure of the Decision Tree to understand decision paths:
+![Decision Tree](https://raw.githubusercontent.com/Shamir-Havas/Drug-Prediction-Decision-Tree/main/decision_tree.png)
 
 🔹 Model Accuracy
-The model achieves an accuracy of ~97% on the test set.
+![Model Accuracy](https://raw.githubusercontent.com/Shamir-Havas/Drug-Prediction-Decision-Tree/main/accuracy.png)
 
 🔹 Feature Importance
-Rank the features based on their importance in predicting drug type.
+![Feature Importance](https://raw.githubusercontent.com/Shamir-Havas/Drug-Prediction-Decision-Tree/main/feature_importance.png)
 
 🔍 Model Explainability
 Feature Importance: Features ranked by their contribution to model decisions
