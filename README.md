@@ -1,10 +1,10 @@
-<b># 💊 Drug Prediction — Decision Tree  </b>
+# <b>💊 Drug Prediction — Decision Tree  </b>
 
 A clear and interpretable baseline for predicting **drug categories** using patient features and a Decision Tree classifier. Designed to be **interview-friendly**, with emphasis on clarity, step-by-step decisions, and interpretability.  
 
 ---
 
-<b>## 📂 Project Structure  </b>
+##<b> 📂 Project Structure  </b>
 
 ├── Drug_Prediction_DecisionTree_polished.ipynb # Main notebook with full workflow
 ├── README.md # Project documentation
@@ -12,7 +12,7 @@ A clear and interpretable baseline for predicting **drug categories** using pati
 
 ---
 
-<b>## ⚙️ Skills & Tech</b>  
+##<b> ⚙️ Skills & Tech</b>  
 
 - **Python, Jupyter Notebook**  
 - **pandas, NumPy** — Data handling  
@@ -22,7 +22,7 @@ A clear and interpretable baseline for predicting **drug categories** using pati
 
 ---
 
-<b>## 📝 Project Overview  </b>
+## <b>📝 Project Overview  </b>
 
 This notebook demonstrates a complete **Machine Learning workflow** for predicting drug categories:  
 
@@ -33,7 +33,7 @@ This notebook demonstrates a complete **Machine Learning workflow** for predicti
 
 ---
 
-<b>## 📊 Dataset</b>  
+##<b> 📊 Dataset</b>  
 
 - **Features:**  
   - Age: Age of the patient  
@@ -47,7 +47,7 @@ This notebook demonstrates a complete **Machine Learning workflow** for predicti
 
 ---
 
-<b>## ▶️ How to Run</b>  
+##<b> ▶️ How to Run</b>  
 
 1. Clone or download this repository:  
    ```bash
