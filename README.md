@@ -2,9 +2,10 @@
 
 A clear and interpretable baseline for predicting drug categories using patient features and a Decision Tree classifier. Designed to be interview-friendly, with emphasis on clarity, step-by-step decisions, and interpretability.
 
-📂 Project Structure<br>
-├── Drug_Prediction_DecisionTree_polished.ipynb  <br>
-├── README.md                                   
+📂 Project Structure
+├── Drug_Prediction_DecisionTree_polished.ipynb # Main notebook with full workflow
+├── README.md # Project documentation
+
 
 ⚙️ Skills & Tech
 
@@ -19,7 +20,6 @@ scikit-learn — DecisionTreeClassifier, model evaluation
 EDA, Preprocessing, Model interpretation
 
 📝 Project Overview
-
 This notebook demonstrates a complete Machine Learning workflow for predicting drug categories:
 
 Exploratory Data Analysis (EDA) – Inspect dataset distribution and patterns
@@ -65,33 +65,21 @@ Kernel → Restart & Run All
 📊 Results
 
 🔹 Category Counts
-
 Visualize the distribution of drug categories to assess class balance:
-
-
-Replace this placeholder with a screenshot of your category distribution (e.g., bar chart showing the count of each drug type).
+![Category Distribution](images/Category Counts.png)
 
 🔹 Model Accuracy
+The model achieves an accuracy of ~97% on the test set:
 
-The model achieves an accuracy of ~97% on the test set
-
-
-Replace this placeholder with your accuracy plot or printed output.
 
 🔹 Confusion Matrix
-
 To evaluate model performance, visualize the confusion matrix:
-
-
-Replace this placeholder with a screenshot of your confusion matrix heatmap.
+Replace with confusion matrix screenshot if added.
 
 
 🔹 Decision Tree Visualization
-
 Visualize the structure of the Decision Tree to understand decision paths:
-
-
-Replace this placeholder with a screenshot of your Decision Tree plot (using plot_tree).
+![Decision Tree](images/Decision Tree Visualization.png)
 
 🔍 Model Explainability
 
@@ -112,8 +100,13 @@ Try ensemble methods (Random Forest, XGBoost)
 Domain-specific validation & feature engineering
 
 📦 Requirements
+
 pandas==2.0.3
+
 numpy==1.25.2
+
 matplotlib==3.7.2
+
 seaborn==0.12.2
+
 scikit-learn==1.3.0
