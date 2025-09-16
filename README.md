@@ -63,12 +63,6 @@ Run all cells:
 Kernel → Restart & Run All
 
 📊 Results
-🔹 Dataset Preview
-
-To understand the dataset structure, inspect the first few rows:
-
-
-Replace this placeholder with a screenshot of your dataset preview.
 
 🔹 Category Counts
 
@@ -79,7 +73,7 @@ Replace this placeholder with a screenshot of your category distribution (e.g., 
 
 🔹 Model Accuracy
 
-The model achieves an accuracy of ~97% on the test set:
+The model achieves an accuracy of ~97% on the test set
 
 
 Replace this placeholder with your accuracy plot or printed output.
@@ -91,12 +85,6 @@ To evaluate model performance, visualize the confusion matrix:
 
 Replace this placeholder with a screenshot of your confusion matrix heatmap.
 
-🔹 Feature Importance
-
-Rank the features based on their importance in predicting the drug type:
-
-
-Replace this placeholder with a plot showing feature importance (using clf.feature_importances_).
 
 🔹 Decision Tree Visualization
 
